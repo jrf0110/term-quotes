@@ -18,6 +18,9 @@ var
 
   , { quote: "By maintaining a consistent facade (simplified API), the worry about whether a module extensively uses dojo, jQuery, YUI, zepto or something else becomes significantly less important. As long as the interaction layer doesn't change, you retain the ability to switch out libraries (eg. jQuery for Dojo) at a later point without affecting the rest of the system."
     , author: "Addy Osmani" }
+
+  , { quote: "I would have written a smaller module, but I didn't have the time."
+    , author: "Substack" }
   ]
 , curr   = 0
 , onTick = function(){
